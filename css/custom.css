@@ -20,23 +20,31 @@ hr.self {
 
 /* button */
 .btn-hldr .main-btn {
-    font-size: 1em;
-    text-align: center;
-    display: inline-block;
-    position: relative;
-    background: #45b29a;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 3px;
-    font-weight: 500;
-    border: 0;
-    text-transform: uppercase;
+  font-size: 1em;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  background: #45b29a;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  font-weight: 500;
+  border: 0;
+  text-transform: uppercase;
 }
 
 
 
 .btn-hldr {
-  text-align: center;
+text-align: center;
+}
+
+.contact-me{
+  font-size: 15px; 
+  background-color:#474e5d;
+  border: 2px solid #4ab19a; 
+  color: #4ab19a; 
+  padding: 5px 100px
 }
 
 
@@ -47,7 +55,6 @@ hr.self {
   background-attachment: fixed;
   background-position: bottom;
   background-repeat: no-repeat;
-  /* background-size: cover; */
   background-color: #e0ebe8;
 
 }
@@ -57,22 +64,22 @@ hr.self {
 }
 
 .bgimg-2 {
-  background-image: url("../images/img_background2.jpg");
+  background-image: url("../images/img_background2.svg");
   min-height: 200px;
 }
 
 .bgimg-3 {
-  background-image: url("../images/img_background3.jpg");
+  background-image: url("../images/img_background3.svg");
   min-height: 200px;
 }
 
 .bgimg-4 {
-  background-image: url("../images/img_background4.jpg");
+  background-image: url("../images/img_background5.svg");
   min-height: 200px;
 }
 
 .bgimg-5 {
-  background-image: url("../images/img_background5.jpg");
+  background-image: url("../images/img_background4.svg");
   min-height: 200px;
 }
 
@@ -88,6 +95,7 @@ hr.self {
 
 .caption_self span.border_self {
   color: #4ab19a;
+  letter-spacing: 10px;
   padding: 18px;
   font-size: 3em;
   font-weight: bold;
@@ -139,7 +147,7 @@ hr.self {
 h3.self  {
   letter-spacing: 3px;
   font-size: 3.7em;
-  color: #22a39f;
+  color: #4ab19a;
   text-align:center;
   font-weight: 300;
   margin:20px;
@@ -158,7 +166,7 @@ h3.self  {
 
 h4.self {
 	margin: 20px 0;
-	color: #22a39f;
+	color: #4ab19a;
 	font-weight: 300;
 	font-size: 28px;
 	
@@ -404,7 +412,6 @@ img.self {
     left: 60px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
-    border-co_explor: transparent white transparent transparent;
   }
 
   /* Make sure all circles are at the same spot */
@@ -778,7 +785,7 @@ background-color: aliceblue;
     right: 0px;
 	color: white;
 	padding: 10px;
-	background-color: #22a39f;
+	background-color: #4ab19a;
 }
 /*Modal Image*/
 /* The Modal (background) */
@@ -874,48 +881,48 @@ background-color: aliceblue;
 }
 
 input::-webkit-input-placeholder {
-color: #22a39f !important;
+color: #4ab19a !important;
 }
  
 input:-moz-placeholder { /* Firefox 18- */
-color: #22a39f !important;  
+color: #4ab19a !important;  
 }
  
 input::-moz-placeholder {  /* Firefox 19+ */
-color: #22a39f !important;  
+color: #4ab19a !important;  
 }
  
 input:-ms-input-placeholder {  
-color: #22a39f !important;  
+color: #4ab19a !important;  
 }
 
 textarea::-webkit-input-placeholder {
-color: #22a39f !important;
+color: #4ab19a !important;
 }
  
 textarea:-moz-placeholder { /* Firefox 18- */
-color: #22a39f !important;  
+color: #4ab19a !important;  
 }
  
 textarea::-moz-placeholder {  /* Firefox 19+ */
-color: #22a39f !important;  
+color: #4ab19a !important;  
 }
  
 textarea:-ms-input-placeholder {  
-color: #22a39f !important;  
+color: #4ab19a !important;  
 }
 
 select option {
-	color: #22a39f
+	color: #4ab19a
 }
 
 #exampleFormControlSelect1 {
-	color: #22a39f
+	color: #4ab19a
 }
 
 table {
     width: 100%;
-	color: #22a39f;
+	color: #4ab19a;
 	font-size: 17px;
 	
 }
@@ -939,14 +946,14 @@ td {
 }
 
 .contact_text{
-	color: #22a39f;
+	color: #4ab19a;
 	font-size: 20px;
 	text-align: center;
 	
 }
 
 .contact_bigicon {
-	color: #22a39f;
+	color: #4ab19a;
 	font-size: 30px;
 	text-decoration: none;
 	text-align: center;
@@ -1010,7 +1017,7 @@ td {
 
 .mobilenav a:hover
 {
-  color: #22a39f;
+  color: #4ab19a;
 }
 
 #menuToggle
