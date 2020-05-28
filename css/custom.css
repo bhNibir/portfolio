@@ -1017,9 +1017,16 @@ td {
 
 .mobilenav a:hover
 {
-  color: #4ab19a;
+  border-bottom: 3px solid #fff;
 }
 
+a:hover{
+  color: #fff;
+}
+
+.btn:hover {
+  color: #fff;
+}
 #menuToggle
 {
   display: block;
