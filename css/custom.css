@@ -1026,6 +1026,11 @@ a:hover{
 
 .btn:hover {
   color: #fff;
+  border-color: #fff;
+}
+
+.github-class:hover {
+  color: #1b7f69 !important;
 }
 #menuToggle
 {
