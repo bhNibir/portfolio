@@ -6,7 +6,10 @@ const sentEmail = () =>{
 
     if( sender_mail && mail_body ) {
         Email.send({
-            SecureToken : "2728028c-8ae6-4d53-a734-bf1605a41a0b",
+            Host: "smtp.gmail.com",
+            Username : "nibirsmtp@gmail.com",
+            Password : "cpobblmmgcfezbmo",
+            // SecureToken : "2728028c-8ae6-4d53-a734-bf1605a41a0b",
             To : "biplob.asanibir@gmail.com",
             From : sender_mail,
             Subject : mail_subject,
